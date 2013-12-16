@@ -1,0 +1,37 @@
+<!-- Foundation CSS Overload
+================================================== -->
+.empty {
+	
+}
+.spacer-small {
+	margin: 15px auto 15px !important;
+}
+.spacer-medium {
+	margin: 30px auto 30px !important;
+}
+.padding-small {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.padding-medium {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.text.white {
+	color: #fff;
+}
+
+.highlight {
+	background-color: #eee;
+}
+
+.footer.highlight {
+	background-color: #333;
+}
+.footer .icon {
+	height: 17px;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
