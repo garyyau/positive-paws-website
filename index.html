@@ -71,18 +71,17 @@
 				</div>
 			</div>
 			
+			
 			<!-- Row 1: Logo / About
 			================================================== -->
-			<div class="row spacer-medium">
+			<div class="row spacer-medium" data-match-height>
 				<div class="xlarge-8 large-10 medium-12 large-centered columns">
 					
-					<div class="large-4 medium-4 columns">
-						<div>
-							<img src="img/brand_logo-full.png" class="hide-for-small" alt="Positive Paws Vancouver">
-						</div>
+					<div class="large-4 medium-4 columns hide-for-small" data-height-watch style="background: pink;">
+							<img src="img/brand_logo-full.png" alt="Positive Paws Vancouver">
 					</div>
 					
-					<div class="large-8 medium-8 columns">
+					<div class="large-8 medium-8 columns" data-height-watch style="background: orange;">
 						<h3>Welcome to Positive Paws Vancouver!</h3>
 						<p>Here at Positive Paws we love caring for dogs and cats. When your schedule keeps you busy we are here to help by providing dog walking and customized pet sitting visits. We pride ourselves on our reliable and safe care and on making your pets happy. We are licensed, insured, bonded and pet first aid certified so you can rest easy knowing your pets are in good hands.</p>
 	
@@ -94,65 +93,64 @@
 				</div>
 			</div>
 			
+			
 			<!-- Row 2: Prices / Testimony / Contact
 			================================================== -->
-			<div class="row spacer-medium highlight">
+			<div class="row highlight">
 				
 				<!-- Feature Information -->
-				<div class="row">
-					<div class="xlarge-8 large-10 medium-12 large-centered columns">
-						<div class="large-4 medium-4 columns">
+				
+				<div class="xlarge-8 large-10 medium-12 large-centered columns">
+					
+					<div class="row" data-match-height>
+					
+						<div class="large-4 medium-4 columns" style="background: pink;" data-height-watch>
 							<center>
 								<img src="img/icon_large-services.png" class="spacer-medium" alt="Services">
 								<p><strong>Low Prices, Great Services</strong><br>
 									From dog walking to pet sitting, we're take care of their paws so that you can continue with your schedule with no worries at all!</p>
-							</center>
-						</div>
-						
-						<div class="large-4 medium-4 columns">
-							<center>
-								<img src="img/icon_large-testimonies.png" class="spacer-medium" alt="Testimonies">
-								<p><strong>Read What People Say</strong><br>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
-							</center>
-						</div>
-						
-						<div class="large-4 medium-4 columns">
-							<center>
-								<img src="img/icon_large-contact.png" class="spacer-medium" alt="Contact">
-								<p><strong>Fast & Detailed Responses</strong><br>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
-							</center>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Feature Buttons -->
-				<div class="row">
-					<div class="xlarge-8 large-10 medium-12 large-centered columns">
-						<div class="large-4 medium-4 columns">
-							<center>
 								<a href="#" class="button tiny">VIEW SERVICES</a>
 							</center>
 						</div>
 						
-						<div class="large-4 medium-4 columns">
+						<div class="large-4 medium-4 columns" style="background: orange;" data-height-watch>
 							<center>
+								<img src="img/icon_large-testimonies.png" class="spacer-medium" alt="Testimonies">
+								<p><strong>Read What People Say</strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
 								<a href="#" class="button tiny">READ TESTIMONIES</a>
 							</center>
 						</div>
 						
-						<div class="large-4 medium-4 columns">
+						<div class="large-4 medium-4 columns" style="background: lightblue;" data-height-watch>
 							<center>
+								<img src="img/icon_large-contact.png" class="spacer-medium" alt="Contact">
+								<p><strong>Fast & Detailed Responses</strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
 								<a href="#" class="button tiny">CONTACT US</a>
 							</center>
 						</div>
+					
 					</div>
+					
 				</div>
 				
 			</div>
 			
 		</div>
+		
+		
+		<!-- Row 3: Testimony
+		================================================== -->
+		<div class="row spacer-medium">
+			
+			<div class="xlarge-8 large-10 medium-12 large-centered columns">
+				<blockquote>This is a sample quote.<cite>John Doe</cite></blockquote>
+				<a href="#" class="button tiny">READ TESTIMONIES</a>
+			</div>
+			
+		</div>
+		
 		
 		<!-- Footer: Copyright / Social Media
 		================================================== -->
@@ -199,6 +197,7 @@
     
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+		<script src="js/js-overload.js"></script>
     <script>
       $(document).foundation();
     </script>

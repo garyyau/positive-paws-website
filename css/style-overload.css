@@ -21,10 +21,15 @@
 .text.white {
 	color: #fff;
 }
-
 .highlight {
 	background-color: #eee;
 }
+
+.button.feature {
+	bottom: 0;
+	margin-bottom: 15px;
+}
+
 
 .footer.highlight {
 	background-color: #333;
