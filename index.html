@@ -1,205 +1,274 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-		<link rel="stylesheet" href="css/style-overload.css" />
-    <script src="js/modernizr.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
+
   <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <a class="navbar-brand" href="index.html">Modern Business</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
+                <li><a href="portfolio-2-col.html">2 Column Portfolio</a></li>
+                <li><a href="portfolio-3-col.html">3 Column Portfolio</a></li>
+                <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
+                <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog-home-1.html">Blog Home 1</a></li>
+                <li><a href="blog-home-2.html">Blog Home 2</a></li>
+                <li><a href="blog-post.html">Blog Post</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="full-width.html">Full Width Page</a></li>
+                <li><a href="sidebar.html">Sidebar Page</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="404.html">404</a></li>
+                <li><a href="pricing.html">Pricing Table</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
     
-		<!-- Navigation Menu
-		================================================== -->
-		<div class="container">
-			
-			<nav class="top-bar" data-topbar>
-				<ul class="title-area">
-					<li class="name"><h1><a><img src="img/brand_logo-header.png" alt="Positive Paws Vancouver"></a></h1></li>
-					<li class="toggle-topbar menu-icon">
-						<a href="#"><span></span></a>
-					</li>
-				</ul>
-				
-				<section class="top-bar-section">
-					<ul class="right">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Testimonies</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</section>
-			</nav>
-			
-		</div>
-		
-		
-		<!-- Main Page Content
-		================================================== -->
-		<div class="container">
-			
-			<!-- Row 0: Orbit Scroller
-			================================================== -->
-			<div class="row show-for-medium-up extramargin">
-				<div class="xlarge-8 large-12 medium-12 large-centered columns">
-				
-					<div class="large-12 columns">
-						<ul class="example-orbit" data-orbit>
-							<li>
-								<img src="http://foundation.zurb.com/docs/assets/img/examples/andromeda-orbit.jpg" alt="slide 1" />
-								<div class="orbit-caption">
-									Caption One.
-								</div>
-							</li>
-							<li>
-								<img src="http://foundation.zurb.com/docs/assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
-								<div class="orbit-caption">
-									Caption Two.
-								</div>
-							</li>
-							<li>
-								<img src="http://foundation.zurb.com/docs/assets/img/examples/andromeda-orbit.jpg" alt="slide 3" />
-								<div class="orbit-caption">
-									Caption Three.
-								</div>
-							</li>
-						</ul>
-					</div>
-				
-				</div>
-			</div>
-			
-			
-			<!-- Row 1: Logo / About
-			================================================== -->
-			<div class="row spacer-medium" data-match-height>
-				<div class="xlarge-8 large-10 medium-12 large-centered columns">
-					
-					<div class="large-4 medium-4 columns hide-for-small" data-height-watch style="background: pink;">
-							<img src="img/brand_logo-full.png" alt="Positive Paws Vancouver">
-					</div>
-					
-					<div class="large-8 medium-8 columns" data-height-watch style="background: orange;">
-						<h3>Welcome to Positive Paws Vancouver!</h3>
-						<p>Here at Positive Paws we love caring for dogs and cats. When your schedule keeps you busy we are here to help by providing dog walking and customized pet sitting visits. We pride ourselves on our reliable and safe care and on making your pets happy. We are licensed, insured, bonded and pet first aid certified so you can rest easy knowing your pets are in good hands.</p>
-	
-						<p>Positive Paws is your reliable neighborhood dog walker and pet sitter for dogs, cats and small animals in the Renfrew-Collingwood neighborhood of East Vancouver.</p>
-						
-						<h4>We're positive your paws will be happy with us!</h4>
-					</div>
-					
-				</div>
-			</div>
-			
-			
-			<!-- Row 2: Prices / Testimony / Contact
-			================================================== -->
-			<div class="row highlight">
-				
-				<!-- Feature Information -->
-				
-				<div class="xlarge-8 large-10 medium-12 large-centered columns">
-					
-					<div class="row" data-match-height>
-					
-						<div class="large-4 medium-4 columns" style="background: pink;" data-height-watch>
-							<center>
-								<img src="img/icon_large-services.png" class="spacer-medium" alt="Services">
-								<p><strong>Low Prices, Great Services</strong><br>
-									From dog walking to pet sitting, we're take care of their paws so that you can continue with your schedule with no worries at all!</p>
-								<a href="#" class="button tiny">VIEW SERVICES</a>
-							</center>
-						</div>
-						
-						<div class="large-4 medium-4 columns" style="background: orange;" data-height-watch>
-							<center>
-								<img src="img/icon_large-testimonies.png" class="spacer-medium" alt="Testimonies">
-								<p><strong>Read What People Say</strong><br>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
-								<a href="#" class="button tiny">READ TESTIMONIES</a>
-							</center>
-						</div>
-						
-						<div class="large-4 medium-4 columns" style="background: lightblue;" data-height-watch>
-							<center>
-								<img src="img/icon_large-contact.png" class="spacer-medium" alt="Contact">
-								<p><strong>Fast & Detailed Responses</strong><br>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at luctus augue, non dapibus libero.</p>
-								<a href="#" class="button tiny">CONTACT US</a>
-							</center>
-						</div>
-					
-					</div>
-					
-				</div>
-				
-			</div>
-			
-		</div>
-		
-		
-		<!-- Row 3: Testimony
-		================================================== -->
-		<div class="row spacer-medium">
-			
-			<div class="xlarge-8 large-10 medium-12 large-centered columns">
-				<blockquote>This is a sample quote.<cite>John Doe</cite></blockquote>
-				<a href="#" class="button tiny">READ TESTIMONIES</a>
-			</div>
-			
-		</div>
-		
-		
-		<!-- Footer: Copyright / Social Media
-		================================================== -->
-		<div class="container">
-			
-			<!-- Size Medium and Up with One Row -->
-			<div class="row padding-small footer highlight show-for-medium-up">
-				<div class="large-8 medium-8 columns">
-					<span class="text white"><small>&copy; 2013 Positive Paws - Built by gky2 at codeaspera</small></span>
-				</div>
-				<div class="large-4 medium-4 columns">
-					<div class="right">
-						<img src="img/icon_mini-facebook.png" class="icon">
-						<img src="img/icon_mini-twitter.png" class="icon">
-						<img src="img/icon_mini-blogger.png" class="icon">
-						<img src="img/icon_mini-yelp.png" class="icon">
-					</div>
-				</div>
-			</div>
-			
-			<!-- Size Small with Two Rows -->
-			<div class="row padding-small footer highlight show-for-small-only">
-				
-				<div class="row">
-					<div class="small-12 columns">
-						<center><span class="text white"><small>&copy; 2013 Positive Paws - Built by gky2 at codeaspera</small></span></center>
-					</div>
-				</div>
-				
-				<div class="row spacer-small">
-					<div class="small-12 columns">
-						<center>
-							<img src="img/icon_mini-facebook.png" class="icon">
-							<img src="img/icon_mini-twitter.png" class="icon">
-							<img src="img/icon_mini-blogger.png" class="icon">
-							<img src="img/icon_mini-yelp.png" class="icon">
-						</center>
-					</div>
-				</div>
-				
-			</div>
-		
-		</div>
-    
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-		<script src="js/js-overload.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="carousel-caption">
+              <h1>Modern Business - A Bootstrap 3 Template</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <div class="carousel-caption">
+              <h1>Ready to Style &amp; Add Content</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            <div class="carousel-caption">
+              <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a></h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+    </div>
+
+    <div class="section">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <h3><i class="fa fa-check-circle"></i> Bootstrap 3 Built</h3>
+            <p>The 'Modern Business' website template by <a href="http://startbootstrap.com">Start Bootstrap</a> is built with <a href="http://getbootstrap.com">Bootstrap 3</a>. Make sure you're up to date with latest Bootstrap documentation!</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
+            <p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h3><i class="fa fa-folder-open"></i> Many Page Options</h3>
+            <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
+          </div>
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </div><!-- /.section -->
+
+    <div class="section-colored text-center">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Modern Business: A Clean &amp; Simple Full Website Template by Start Bootstrap</h2>
+            <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
+            <hr>
+          </div>
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </div><!-- /.section-colored -->
+
+    <div class="section">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Display Some Work on the Home Page Portfolio</h2>
+            <hr>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <a href="portfolio-item.html"><img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450"></a>
+          </div>
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </div><!-- /.section -->
+
+    <div class="section-colored">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h2>Modern Business Features Include:</h2>
+            <ul>
+              <li>Bootstrap 3 Framework</li>
+              <li>Mobile Responsive Design</li>
+              <li>Predefined File Paths</li>
+              <li>Working PHP Contact Page</li>
+              <li>Minimal Custom CSS Styles</li>
+              <li>Unstyled: Add Your Own Style and Content!</li>
+              <li>Font-Awesome fonts come pre-installed!</li>
+              <li>100% <strong>Free</strong> to Use</li>
+              <li>Open Source: Use for any project, private or commercial!</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
+          </div>
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </div><!-- /.section-colored -->
+
+    <div class="section">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img class="img-responsive" src="http://placehold.it/700x450">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h2>Modern Business Features Include:</h2>
+            <ul>
+              <li>Bootstrap 3 Framework</li>
+              <li>Mobile Responsive Design</li>
+              <li>Predefined File Paths</li>
+              <li>Working PHP Contact Page</li>
+              <li>Minimal Custom CSS Styles</li>
+              <li>Unstyled: Add Your Own Style and Content!</li>
+              <li>Font-Awesome fonts come pre-installed!</li>
+              <li>100% <strong>Free</strong> to Use</li>
+              <li>Open Source: Use for any project, private or commercial!</li>
+            </ul>
+          </div>
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </div><!-- /.section -->
+
+    <div class="container">
+
+      <div class="row well">
+        <div class="col-lg-8 col-md-8">
+          <h4>'Modern Business' is a ready-to-use, Bootstrap 3 updated, multi-purpose HTML theme!</h4>
+          <p>For more templates and more page options that you can integrate into this website template, visit Start Bootstrap!</p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <a class="btn btn-lg btn-primary pull-right" href="http://startbootstrap.com">See More Templates!</a>
+        </div>
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Company 2013</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+
   </body>
 </html>
