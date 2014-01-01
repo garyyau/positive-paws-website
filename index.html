@@ -13,13 +13,19 @@
 
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/css-overload.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
 
+		
+		<!-- Navigation Menu
+		================================================== -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			
       <div class="container">
+				
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -28,48 +34,34 @@
             <span class="icon-bar"></span>
           </button>
           <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-          <a class="navbar-brand" href="index.html">Modern Business</a>
+          <a class="navbar-brand" href="index.html">Positive Paws</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="#">About</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
-                <li><a href="portfolio-2-col.html">2 Column Portfolio</a></li>
-                <li><a href="portfolio-3-col.html">3 Column Portfolio</a></li>
-                <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
-                <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
+                <li><a href="#">Dog Walking</a></li>
+                <li><a href="#">Pet Sitting</a></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="full-width.html">Full Width Page</a></li>
-                <li><a href="sidebar.html">Sidebar Page</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="404.html">404</a></li>
-                <li><a href="pricing.html">Pricing Table</a></li>
-              </ul>
-            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Testimonies</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
+        </div>
+				
+      </div>
+			
     </nav>
+		<!-- End Navigation Menu -->
     
+		
+		<!-- Slider Carousel
+		================================================== -->
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -81,11 +73,11 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="fill" style="background-image:url('img/carousel_slide-logo.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Modern Business - A Bootstrap 3 Template</h1>
             </div>
           </div>
+					<!--
           <div class="item">
             <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
             <div class="carousel-caption">
@@ -98,6 +90,7 @@
               <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a></h1>
             </div>
           </div>
+					-->
         </div>
 
         <!-- Controls -->
@@ -108,45 +101,92 @@
           <span class="icon-next"></span>
         </a>
     </div>
+		<!-- End Slider Carousel -->
+	
+		
+		
+		<!-- Section: Introduction
+		================================================== -->
+		<div class="section-colored section-full-width">
 
+      <div class="container">
+				
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<img src="img/brand_logo-full.png" class="img-responsive" alt="Positive Paws Vancouver">
+					</div>
+					
+          <div class="col-lg-9 col-md-9">
+            <h2>Welcome to <span class="orange-text">Positive Paws Vancouver</span>!</h2>
+						
+            <p>Here at Positive Paws we love caring for dogs and cats. When your schedule keeps you busy we are here to help by providing dog walking and customized pet sitting visits. We pride ourselves on our reliable and safe care and on making your pets happy. We are licensed, insured, bonded and pet first aid certified so you can rest easy knowing your pets are in good hands.</p>
+						
+						<p>Positive Paws is your reliable neighborhood dog walker and pet sitter for dogs, cats and small animals in the Renfrew-Collingwood neighborhood of East Vancouver.</p>
+          </div>
+        </div>
+				
+      </div>
+
+    </div>
+		<!-- End Section: Introduction -->
+		
+		
+		<!-- Section: Feature Overview
+		================================================== -->
     <div class="section">
-
       <div class="container">
 
         <div class="row">
+					<!-- Dog Walking -->
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-check-circle"></i> Bootstrap 3 Built</h3>
-            <p>The 'Modern Business' website template by <a href="http://startbootstrap.com">Start Bootstrap</a> is built with <a href="http://getbootstrap.com">Bootstrap 3</a>. Make sure you're up to date with latest Bootstrap documentation!</p>
+						<center>
+							<img src="img/icon_large-services.png">
+            	<h3>Exercise from Dog Walking</h3>
+							<p>Picked up and dropped off at your home, sign your puppy or dog for group or private walks and come home to a tired and better behaved dog!</p>
+						</center>
           </div>
+					<!-- Pet Sitting -->
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
-            <p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
+            <center>
+							<img src="img/icon_large-services.png">
+            	<h3>Reliable Pet Sitting</h3>
+							<p>Reliable and loving care for your pets and your home while you are away so that you can stay carefree on your vacation while knowing your pet is in good care.</p>
+						</center>
           </div>
+					<!-- Easy Contact -->
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-folder-open"></i> Many Page Options</h3>
-            <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
+            <center>
+							<img src="img/icon_large-contact.png">
+            	<h3>Fast & Detailed Responses</h3>
+							<p>Contact us today with any questions or concerns about our services and we'll be sure to get back to you as soon as we can for efficient services!</p>
+						</center>
           </div>
-        </div><!-- /.row -->
+        </div>
 
-      </div><!-- /.container -->
-
-    </div><!-- /.section -->
-
-    <div class="section-colored text-center">
-
+      </div>
+    </div>
+		<!-- End Section: Feature Overview -->
+		
+		
+		<!-- Section: Slogan
+		================================================== -->
+    <div class="section section-colored-orange section-full-width text-center">
+			
       <div class="container">
-
+				
         <div class="row">
           <div class="col-lg-12">
-            <h2>Modern Business: A Clean &amp; Simple Full Website Template by Start Bootstrap</h2>
-            <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
-            <hr>
+            <h1 class="white-text">We're positive your paws will be happy with us!</h1>
           </div>
-        </div><!-- /.row -->
+        </div>
+				
+      </div>
 
-      </div><!-- /.container -->
-
-    </div><!-- /.section-colored -->
+    </div>
+		<!-- End Section: Slogan -->
+		
+		
+		
 
     <div class="section">
 
@@ -209,34 +249,6 @@
 
     </div><!-- /.section-colored -->
 
-    <div class="section">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <img class="img-responsive" src="http://placehold.it/700x450">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <h2>Modern Business Features Include:</h2>
-            <ul>
-              <li>Bootstrap 3 Framework</li>
-              <li>Mobile Responsive Design</li>
-              <li>Predefined File Paths</li>
-              <li>Working PHP Contact Page</li>
-              <li>Minimal Custom CSS Styles</li>
-              <li>Unstyled: Add Your Own Style and Content!</li>
-              <li>Font-Awesome fonts come pre-installed!</li>
-              <li>100% <strong>Free</strong> to Use</li>
-              <li>Open Source: Use for any project, private or commercial!</li>
-            </ul>
-          </div>
-        </div><!-- /.row -->
-
-      </div><!-- /.container -->
-
-    </div><!-- /.section -->
-
     <div class="container">
 
       <div class="row well">
@@ -258,7 +270,7 @@
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013</p>
+            <p>Copyright &copy; Positive Paws 2014</p>
           </div>
         </div>
       </footer>
