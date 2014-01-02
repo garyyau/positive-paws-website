@@ -1,45 +1,8 @@
-.section-colored-orange {
-  background-color: #f8903a; /* change this to change the background color of a colored section */
+/*-- Bootstrap Overload
+================================================== */
+.navbar-toggle {
+  margin-top: 20px;
 }
-.section-colored-babyorange {
-	background-color: #f8bf96;
-}
-
-
-.orange-text {
-	color: #ec6f09; !important
-}
-.white-text {
-		color: #ffffff; !important
-}
-
-.hr-gradient {
-	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-  background-image: -webkit-linear-gradient(color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 99%));
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 99%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, rgba(200, 200, 200, 1) 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-}
-
-.indicator-down{position:absolute; bottom:-12px; left:50%; margin-left:-12px; width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent; border-top:12px solid #ef7f1a; z-index:900;}
-.indicator-down.color-one{border-top-color:#e06d58; background:none;}
-
-
-.quotes blockquote {
-	font-size: 33px;
-	line-height: 45px;
-	margin-bottom: 0;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 0;
-	border: none;
-	text-transform: uppercase;
-	text-align: center;
-	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-	letter-spacing: 0.1em;
-}
-
 
 .btn-primary {
   color: #ffffff;
@@ -57,6 +20,61 @@
   border-color: #ffffff;
 }
 
+@media (max-width: 991px) {
+	.col-padding-between {
+		padding-top: 25px;
+		padding-between: 25px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 55px;
+	}
+}
+
+
+/*-- Positive Paws Custom Styles
+================================================== */
+.section-colored-orange {
+  background-color: #f8903a;
+}
+.section-colored-babyorange {
+	background-color: #f8bf96;
+}
+
+.orange-text {
+	color: #ec6f09; !important
+}
+.white-text {
+		color: #ffffff; !important
+}
+
+.hr-gradient {
+	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 99%));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 99%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, rgba(200, 200, 200, 1) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.quotes blockquote {
+	font-size: 33px;
+	line-height: 45px;
+	margin-bottom: 0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 0;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.1em;
+}
+
 .social-icon {
 	width: 40px;
 	margin-left: 5px;
@@ -69,12 +87,4 @@ footer {
 footer .copyright {
 	position: absolute;
 	margin-top: 10px;
-}
-
-
-@media (max-width: 991px) {
-	.col-padding-between {
-		padding-top: 25px;
-		padding-between: 25px;
-	}
 }
