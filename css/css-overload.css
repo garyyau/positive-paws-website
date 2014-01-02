@@ -25,6 +25,12 @@
 		padding-top: 25px;
 		padding-between: 25px;
 	}
+	footer {
+		margin: 20px 0;
+	}
+	footer .copyright-col {
+		padding-bottom: 20px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -32,6 +38,16 @@
 		padding-top: 10px;
 		padding-bottom: 10px;
 		line-height: 55px;
+	}
+}
+
+@media (min-width: 992px) {
+	footer {
+		margin: 15px 0;
+	}
+	footer .copyright {
+		position: absolute;
+		margin-top: 10px;
 	}
 }
 
@@ -79,12 +95,4 @@
 	width: 40px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
-
-footer {
-  margin: 15px 0;
-}
-footer .copyright {
-	position: absolute;
-	margin-top: 10px;
 }
