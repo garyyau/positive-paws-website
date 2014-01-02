@@ -56,3 +56,11 @@
   background-color: #f8bf96;
   border-color: #ffffff;
 }
+
+
+@media (max-width: 991px) {
+	.col-padding-between {
+		padding-top: 25px;
+		padding-between: 25px;
+	}
+}
