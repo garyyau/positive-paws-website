@@ -1,6 +1,9 @@
 .section-colored-orange {
   background-color: #f8903a; /* change this to change the background color of a colored section */
 }
+.section-colored-babyorange {
+	background-color: #f8bf96;
+}
 
 
 .orange-text {
@@ -10,11 +13,46 @@
 		color: #ffffff; !important
 }
 
-.gradient {
+.hr-gradient {
 	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
   background-image: -webkit-linear-gradient(color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 99%));
   background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 99%);
   background-image: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, rgba(200, 200, 200, 1) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.indicator-down{position:absolute; bottom:-12px; left:50%; margin-left:-12px; width:0; height:0; border-left:12px solid transparent; border-right:12px solid transparent; border-top:12px solid #ef7f1a; z-index:900;}
+.indicator-down.color-one{border-top-color:#e06d58; background:none;}
+
+
+.quotes blockquote {
+	font-size: 33px;
+	line-height: 45px;
+	margin-bottom: 0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 0;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.1em;
+}
+
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #f8903a;
+  border-color: #f8bf96;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #f8bf96;
+  border-color: #ffffff;
 }
