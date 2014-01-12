@@ -1,5 +1,9 @@
 /*-- Bootstrap Overload
 ================================================== */
+.navbar-inverse li a {
+	font-size: 12pt;
+}
+
 .navbar-toggle {
   margin-top: 20px;
 }
@@ -57,19 +61,23 @@
 .section-colored-orange {
   background-color: #f8903a;
 }
-.section-colored-babyorange {
-	background-color: #f8bf96;
+.section-colored-darkorange {
+	background-color: #d56000;
+}
+.section-colored-darkorange .quotes small {
+	margin-top: 15px;
+	color: #555555;
 }
 
 .orange-text {
 	color: #ec6f09; !important
 }
 .white-text {
-		color: #ffffff; !important
+	color: #ffffff; !important
 }
 
 .hr-gradient {
-	background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
   background-image: -webkit-linear-gradient(color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 99%));
   background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 99%);
   background-image: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, rgba(200, 200, 200, 1) 100%);
