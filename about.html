@@ -6,20 +6,26 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About - Modern Business - Start Bootstrap Template</title>
+    <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/css-overload.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
 
+		
+		<!-- Navigation Menu
+		================================================== -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			
       <div class="container">
+				
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -27,47 +33,32 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Modern Business</a>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <a class="navbar-brand" href="index.html"><img src="img/brand_logo-header.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.html">About</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
-                <li><a href="portfolio-2-col.html">2 Column Portfolio</a></li>
-                <li><a href="portfolio-3-col.html">3 Column Portfolio</a></li>
-                <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
-                <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
+                <li><a href="services-dogwalking.html">Dog Walking</a></li>
+                <li><a href="services-petsitting.html">Pet Sitting</a></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="full-width.html">Full Width Page</a></li>
-                <li><a href="sidebar.html">Sidebar Page</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="404.html">404</a></li>
-                <li><a href="pricing.html">Pricing Table</a></li>
-              </ul>
-            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonies.html">Testimonies</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
+        </div>
+				
+      </div>
+			
     </nav>
+		<!-- End Navigation Menu -->
+		
 
     <div class="container">
 
@@ -83,21 +74,25 @@
 
       </div>
 
+			
+			<!-- Row: About & Welcome -->
       <div class="row">
 
         <div class="col-md-6">
-          <img class="img-responsive" src="http://placehold.it/750x450">
+          <img class="img-responsive" src="img/about_main.jpg">
         </div>
         <div class="col-md-6">
-          <h2>Welcome to 'Modern Business'</h2>
-          <p>This is a great place to introduce your company or project and describe what you do. This about page features general company information, employee bios, and other helpful elements.</p>
-          <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <h2>Welcome to <span class="orange-text">Positive Paws</span></h2>
+          <p>My name is Coral, I am the owner of Positive Paws. I have always had animals in my life as pets and as a passion that has driven me. I have owned and cared for dogs, cats, fish, frogs and even stick bugs. In 2011 I graduated from UBC with an B.A. in Human Geography but soon realized that a life with animals would be the most rewarding. Later that year I brought home a new puppy, Galahad, a Pembroke Welsh Corgi, and my passion for dogs and dog training was fully ignited.</p>
+          <p>Since then I have spent my free time reading, researching, training and studying animals. My knowledge ranges from animal behavior to nutrition. I am a dog walker and pet sitter as well as a positive reinforcement dog trainer and pet first aid certified by Walks N' Wags.</p>
+					<p>I am an advocate of positive leadership and training methods and I am currently attending classes at the Karen Pryor Academy for Animal Training & Behavior to complete the Dog Trainer Foundations course. I believe that building a positive relationship with the animals in my care is key to their health and happiness.</p>
         </div>
 
       </div>
+			<!-- End Row: About & Welcome -->
+			
 
-      <!-- Team Member Profiles -->
-
+      <!-- Row: Team Member Profiles -->
       <div class="row">
 
         <div class="col-lg-12">
@@ -105,128 +100,51 @@
         </div>
 
         <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
+        	<img class="img-responsive" src="img/about_profile-coralnorman.jpg">
+            <h3>Coral Norman <small>Owner</small></h3>
             <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
             <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+              <li class="tooltip-social facebook-link" target="_blank"><a href="https://www.facebook.com/coral.norman" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+              <li class="tooltip-social linkedin-link" target="_blank"><a href="ca.linkedin.com/pub/coral-norman/30/121/94a" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
             </ul>
         </div>
 
         <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
+        	<img class="img-responsive" src="img/about_profile-garyyau.jpg">
+            <h3>Gary Yau <small>Web Developer</small></h3>
             <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
             <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+              <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/gky.aspera" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+              <li class="tooltip-social linkedin-link"><a href="http://www.linkedin.com/in/garyyau" data-toggle="tooltip" data-placement="top" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+              <li class="tooltip-social twitter-link" target="_blank"><a href="https://twitter.com/gkyaspera" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
             </ul>
         </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>John Smith <small>Job Title</small></h3>
-            <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-
+				
       </div>
-
-      <!-- Our Customers -->
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h2 class="page-header">Our Customers</h2>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-        	<img class="img-responsive img-customer" src="http://placehold.it/500x300">
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
+			<!-- End Row: Team Member Profiles -->
+		</div>
+		
+			
+    <!-- Container: Copyright & Social -->
     <div class="container">
-
-      <hr>
 
       <footer>
         <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013</p>
-          </div>
-        </div>
+					<div class="col-lg-9 col-md-9 copyright-col">
+							<span class="copyright">Copyright &copy; 2014 <a href="http://www.positivepaws.ca/">Positive Paws</a> / All rights reserved.</span>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<a href="#"><img src="img/icon_mini-facebook.png" class="social-icon" alt="Find us on Facebook!"></a>
+						<a href="#"><img src="img/icon_mini-twitter.png" class="social-icon" alt="Find us on Twitter!"></a>
+						<a href="#"><img src="img/icon_mini-blogger.png" class="social-icon" alt="Find us on BLogger!"></a>
+						<a href="#"><img src="img/icon_mini-yelp.png" class="social-icon" alt="Find us on Yelp!"></a>
+					</div>
+				</div>
       </footer>
 
-    </div><!-- /.container -->
+    </div>
+		<!-- End Container: Copyright & Social -->
+		
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>

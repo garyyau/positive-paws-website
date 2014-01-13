@@ -8,6 +8,14 @@
   margin-top: 20px;
 }
 
+.navbar a {
+	font-weight: normal;
+}
+
+.navbar a:hover {
+	font-weight: normal;
+}
+
 .btn-primary {
   color: #ffffff;
   background-color: #f8903a;
@@ -53,6 +61,30 @@
 		position: absolute;
 		margin-top: 10px;
 	}
+}
+
+.page-header {
+	border-color: #f8903a;
+}
+
+a {
+	color: #f8903a;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #d56000;
+	font-weight: bold;
+}
+
+.btn-link {
+	color: #f8903a;
+	font-weight: bold;
+}
+
+.btn-link:hover {
+	color: #d56000;
+	font-weight: bold;
 }
 
 
