@@ -7,3 +7,8 @@ $('.carousel').carousel({
 $('.tooltip-social').tooltip({
   selector: "a[data-toggle=tooltip]"
 })
+
+// Activates Tooltips for Footer Social Links
+$('.tooltip-footer').tooltip({
+  selector: "img[data-toggle=tooltip]"
+})
