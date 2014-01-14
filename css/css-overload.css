@@ -55,7 +55,8 @@
 
 @media (min-width: 992px) {
 	footer {
-		margin: 15px 0;
+		margin-top: 30px;
+		margin-bottom: 15px;
 	}
 	footer .copyright {
 		position: absolute;
@@ -104,6 +105,9 @@ a:hover {
 .orange-text {
 	color: #ec6f09; !important
 }
+.red-text {
+	color: red; !important
+}
 .white-text {
 	color: #ffffff; !important
 }
@@ -135,4 +139,34 @@ a:hover {
 	width: 40px;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.panel .panel-body .price-month {
+	margin-left: 10px;
+}
+.panel .panel-body .service-desc {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 25px;
+	text-align: left;
+}
+.panel .panel-body .service-desc li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.panel .price-chart .price-original,
+.panel .price-chart .price-discount,
+.panel .price-chart .price-discount-off{
+	font-weight: bold;
+}
+.panel .price-chart .price-original {
+	text-decoration: line-through;
+}
+.panel .price-chart .price-discount,
+.panel .price-chart .price-discount-off {
+	color: red;
+}
+.panel .price-chart .price-discount-off {
+	font-size: 9pt;
+	padding-left: 10px;
 }
