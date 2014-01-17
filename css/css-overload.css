@@ -78,14 +78,24 @@ a:hover {
 	font-weight: bold;
 }
 
+.btn:hover {
+	background-color: #d56000;
+	font-weight: normal;
+}
+
 .btn-link {
 	color: #f8903a;
+	background-color: transparent;
 	font-weight: bold;
 }
 
 .btn-link:hover {
 	color: #d56000;
+	background-color: transparent;
 	font-weight: bold;
+}
+.well {
+	margin-top: 20px;
 }
 
 

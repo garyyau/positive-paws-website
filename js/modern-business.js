@@ -15,9 +15,9 @@ $('.tooltip-footer').tooltip({
 
 
 // Height Match for Service Price columns
-var dataHeightControl = function() {
+var dataFillerHeightMatch = function() {
 	if($(window).width() > 768) {
-		$("[data-match-height]").each(function() {
+		$("[data-filler-match-height]").each(function() {
 			
 			$(this).find('.filler').css('min-height', 0);
 			
@@ -35,10 +35,28 @@ var dataHeightControl = function() {
 	};
 }
 
+var dataMinHeightMatch = function() {
+	if($(window).width() > 768) {
+		$("[data-min-match-height]").each(function() {
+			
+			$(this).find('.filler').css('min-height', 0);
+			
+			var parentRow = $(this),
+					childrenCols = $(this).find("[data-height-watch]"),
+					childHeights = childrenCols.map(function(){ return $(this).height(); }).get(),
+					tallestChild = Math.max.apply(Math, childHeights);
+		
+			childrenCols.css('min-height', tallestChild);
+		});
+	};
+}
+
 $(window).load(function() {
-	dataHeightControl();
+	dataFillerHeightMatch();
+	dataMinHeightMatch();
 });
 
 $(window).resize(function() {
-	dataHeightControl();
+	dataFillerHeightMatch();
+	dataMinHeightMatch();
 });
