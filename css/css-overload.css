@@ -142,7 +142,7 @@ a:hover {
 }
 
 .panel .panel-body .price-month {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 .panel .panel-body .service-desc {
 	margin-left: 0px;
@@ -164,7 +164,7 @@ a:hover {
 }
 .panel .price-chart .price-discount,
 .panel .price-chart .price-discount-off {
-	color: red;
+	color: #ec6f09;
 }
 .panel .price-chart .price-discount-off {
 	font-size: 9pt;
