@@ -51,6 +51,8 @@ var dataMinHeightMatch = function() {
 	};
 }
 
+var footer
+
 $(window).load(function() {
 	dataFillerHeightMatch();
 	dataMinHeightMatch();

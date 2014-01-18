@@ -101,6 +101,12 @@ a:hover {
 
 /*-- Positive Paws Custom Styles
 ================================================== */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-colored-orange {
   background-color: #f8903a;
 }
@@ -179,4 +185,23 @@ a:hover {
 .panel .price-chart .price-discount-off {
 	font-size: 9pt;
 	padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+	.social-links {
+		float: right;
+	}
+}
+
+.gallery-xs-img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.galleria {
+	width: 100%;
+}
+.galleria-container {
+  background: #222222;
 }
