@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Contact us today at 778-861-2248. We service the Renfrew-Collingwood neighbourhood of East Vancouver">
     <meta name="author" content="">
 
-    <title>Positive Paws - We're Positive Your Paws Will Be Happy With Us!</title>
+    <title>Contact Us - Dog Walking & Pet Sitting - East Vancouver - Positive Paws</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">

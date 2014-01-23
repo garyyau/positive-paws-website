@@ -16,11 +16,11 @@ $('.tooltip-footer').tooltip({
 
 // Height Match for Service Price columns
 var dataFillerHeightMatch = function() {
+	
 	if($(window).width() > 768) {
 		$("[data-filler-match-height]").each(function() {
 			
-			$(this).find('.filler').css('min-height', 0);
-			
+	$(this).find('.filler').css('min-height', 0);
 			var parentRow = $(this),
 					childrenCols = $(this).find("[data-height-watch]"),
 					childHeights = childrenCols.map(function(){ return $(this).height(); }).get(),
@@ -36,19 +36,22 @@ var dataFillerHeightMatch = function() {
 }
 
 var dataMinHeightMatch = function() {
-	if($(window).width() > 768) {
+	$(this).find('.filler').css('min-height', 0);
+	
+	if($(window).width() > 991) {
 		$("[data-min-match-height]").each(function() {
-			
-			$(this).find('.filler').css('min-height', 0);
 			
 			var parentRow = $(this),
 					childrenCols = $(this).find("[data-height-watch]"),
 					childHeights = childrenCols.map(function(){ return $(this).height(); }).get(),
 					tallestChild = Math.max.apply(Math, childHeights);
 		
-			childrenCols.css('min-height', tallestChild);
+			childrenCols.each(function() {
+				var fillerDiv = $(this).find('.filler');
+				fillerDiv.css('min-height', (tallestChild - $(this).height()) / 2);
+			});
 		});
-	};
+	}
 }
 
 var footer

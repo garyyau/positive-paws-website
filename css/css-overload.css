@@ -185,9 +185,13 @@ a:hover {
 	padding-left: 10px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 991px) {
 	.social-links {
 		float: right;
+	}
+	
+	.index-location {
+		margin-top: 50px;
 	}
 }
 
