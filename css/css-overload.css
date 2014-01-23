@@ -70,12 +70,10 @@
 
 a {
 	color: #f8903a;
-	font-weight: bold;
 }
 
 a:hover {
 	color: #d56000;
-	font-weight: bold;
 }
 
 .btn:hover {
