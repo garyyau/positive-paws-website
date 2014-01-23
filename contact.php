@@ -140,10 +140,10 @@
             Vancouver, British Columbia<br>
 						V5R 6C7, Canada<br>
           </p>
-          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (778) 861-2248</p>
-          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: info@positivepaws.ca</p>
-          <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Everyday: 9:00 AM to 9:00 PM</p>
-					<p>Service Area: Renfrew-Collingwood</p>
+          <p><i class="fa fa-phone"></i> <strong>Phone:</strong> (778) 861-2248</p>
+          <p><i class="fa fa-envelope-o"></i> <strong>Email:</strong> info@positivepaws.ca</p>
+          <p><i class="fa fa-clock-o"></i> <strong>Hours:</strong> Everyday: 9:00 AM - 9:00 PM</p>
+					<p><strong>Service Area:</strong> Renfrew-Collingwood</p>
         </div>
 
       </div>
